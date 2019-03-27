@@ -1,13 +1,22 @@
 function myFunction() {
     document.getElementById("demo").innerHTML="xin chao ban den voi javascipt"
 }
-function hello() {
+function thongbao() {
     alert("xin chao")
 
 }
-function f() {
-    document.write("xin chao ban den voi ham write")
-}
+
 function b() {
-    console.log(alert("thong bao vi pham ban quyen"))
+    a= prompt('nhap vao bien a')
+    b=prompt('nhap vao bien b')
+    if(a%b==0)
+    {
+        alert('a la boi so b')
+    }
+    else
+    {
+        alert('a khong phai la boi so  b')
+    }
+
 }
+
