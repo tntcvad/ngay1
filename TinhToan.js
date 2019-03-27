@@ -1,21 +1,29 @@
 function tinh_tong() {
-    let x = parseInt(document.getElementById("x").value);
-    let y = parseInt(document.getElementById("y").value);
-    document.getElementById("ketqua").value=(x + y);
+    //lấy dữ liệu từ trong bảng html;
+    let x = document.getElementById("x").value;
+    let y = document.getElementById("y").value;
+    z = parseInt(x) + parseInt(y);
+
+    document.getElementById("ketqua").value= z;
 }
 function tinh_hieu() {
-    let x = parseInt(document.getElementById("x").value);
-    let y = parseInt(document.getElementById("y").value);
-    document.getElementById("ketqua").value=(x - y);
+    let x = document.getElementById("x").value;
+    let y = document.getElementById("y").value;
+    z = parseInt(x) - parseInt(y);
+
+    document.getElementById("ketqua").value= z;
 }
 function multiplication() {
-    let x = parseInt(document.getElementById("x").value);
-    let y = parseInt(document.getElementById("y").value);
-    document.getElementById("ketqua").value=(x*y);
-    
+    let x = document.getElementById("x").value;
+    let y = document.getElementById("y").value;
+    z = parseInt(x) * parseInt(y);
+
+    document.getElementById("ketqua").value= z;
 }
 function division() {
-    let x = parseInt(document.getElementById("x").value);
-    let y = parseInt(document.getElementById("y").value);
-    document.getElementById("ketqua").value=(x/y);
+    let x = document.getElementById("x").value;
+    let y = document.getElementById("y").value;
+    z = parseInt(x) / parseInt(y);
+
+    document.getElementById("ketqua").value= z;
 }

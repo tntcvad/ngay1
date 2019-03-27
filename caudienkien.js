@@ -23,16 +23,20 @@ function hamdieukien() {
     }
 }
 function hamchuyendoisochuoi() {
-    let a = 'hanoi'
-    let b = 'ngay'
-    document.getElementById("ghep").innerHTML = a + "" + b
-
+    let inputWidth
+    let inputHeight
+    inputHeight = prompt('nhap vao chieu cao')
+    inputWidth = prompt('nhap vao chieu rong')
+    let a = parseInt(inputWidth)
+    let b = parseInt(inputHeight)
+    let c = a * b
+    alert('this is area la= ' + c);
 
 }
+
 function ghepchuoi() {
     a = prompt('nhap vao so a')
     b = prompt('nhap vao so b')
-    let c = a + b
+    c = a + b
     document.getElementById('tong').innerHTML = c
-    document.
 }
