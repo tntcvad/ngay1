@@ -6,19 +6,23 @@
 </head>
 <body>
     <form>
-            <input type="text" id = "sotien">
-            <select>
-                <option>Vietnam</option>
-                <option>USD</option>
+            So luong: <input type="text" id = "amount">
+            Chuyen tu:
+            <select name ='fromCcy' id = "fromCcy">
+                <option value = "vnd">VND</option>
+                <option value="usd">USD</option>
             </select>
-            <select>
-                <option>USD</option>
-                <option>VietNam</option>
-            </select>
-            <button type="button" onclick="">convert</button>
 
+            Chuyen toi:
+            <select name = 'toCcy' id = "toCcy">
+                <option value = 'usd'>USD</option>
+                <option value="vnd">VND</option>
+            </select>
+
+            <button type="button" onclick = "convertCurrency()">convert</button>
+            <input type="text" id = "result">
     </form>
-    <input type="text" id = "ketqua">
 
+    <script src = "TinhToan.js"></script>
 </body>
 </html>
