@@ -40,3 +40,29 @@ function ghepchuoi() {
     c = a + b
     document.getElementById('tong').innerHTML = c
 }
+function switchcase_1() {
+        switch(new Date().getDay(){
+            case 0;
+                day : "chủ nhật";
+                break;
+            case 1:
+                day : "thứ 2";
+                break;
+            case 2:
+                day: "thứ 3";
+                break;
+            case 3:
+                day: "thứ 4";
+                break;
+            case 4:
+                day: "thứ 5";
+                break;
+            case 5:
+                day: "thứ 6";
+                break;
+            case 6:
+                day: "thứ 7";
+                break;
+
+        }
+}
