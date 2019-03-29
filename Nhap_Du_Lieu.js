@@ -1,0 +1,4 @@
+function Nhapdulieu() {
+
+    alert("hello");
+}
