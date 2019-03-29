@@ -4,8 +4,7 @@ function tinh_tong() {
     let y = document.getElementById("txtNumber2").value;
     // x = parsenInt(x) ham parsenInt chuyen doi String sang number;
     z = parseInt(x) + parseInt(y);
-
-    document.getElementById("ketqua").value= z;
+   document.getElementById("ketqua").value= z;
 }
 function tinh_hieu() {
     let x = document.getElementById("txtNumber1").value;
@@ -30,9 +29,9 @@ function division() {
 }
 // ham chuyen doi tien te
 function convertCurrency() {
-    let soTien = document.getElementById("amount").value ;
+    let soTien = document.getElementById("amount").value ;// phuong thuc lay gia tri
     let fromccy = document.getElementById("fromCcy");
-    let fromCcyValue = fromccy.options[fromccy.selectedIndex].value;
+    let fromCcyValue = fromccy.options[fromccy.selectedIndex].value; // phuong thuc lay truong index
     let toccy = document.getElementById("toCcy") ;
     let toccyValue = toccy.options[toccy.selectedIndex].value ;
 
